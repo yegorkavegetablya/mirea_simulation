@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:textSize="35dp"
+          android:textAlignment="center"
+          android:gravity="center"
+          android:text="Автомат №1"/>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:orientation="horizontal">
+
+         <TextView
+             android:id="@+id/first_status"
+             android:layout_width="205dp"
+             android:layout_height="match_parent"/>
+         <TextView
+             android:id="@+id/first_student_number"
+             android:layout_width="205dp"
+             android:layout_height="match_parent"/>
+
+      </LinearLayout>
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="200dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="200dp">
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="20dp">
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/cola"/>
+               <LinearLayout
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_gravity="right"
+                   android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="20dp"
+                      android:textSize="25dp"
+                      android:textAlignment="center"
+                      android:gravity="center"
+                      android:text="Кола"/>
+                  <TextView
+                      android:id="@+id/first_food_first"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp">
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/energy_drink"/>
+               <LinearLayout
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_gravity="right"
+                   android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="20dp"
+                      android:textSize="25dp"
+                      android:textAlignment="center"
+                      android:gravity="center"
+                      android:text="Энергетик"/>
+                  <TextView
+                      android:id="@+id/first_food_second"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp">
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/water"/>
+               <LinearLayout
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_gravity="right"
+                   android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="20dp"
+                      android:textSize="25dp"
+                      android:textAlignment="center"
+                      android:gravity="center"
+                      android:text="Вода"/>
+                  <TextView
+                      android:id="@+id/first_food_third"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp">
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/chips"/>
+               <LinearLayout
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_gravity="right"
+                   android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="20dp"
+                      android:textSize="25dp"
+                      android:textAlignment="center"
+                      android:gravity="center"
+                      android:text="Чипсы"/>
+                  <TextView
+                      android:id="@+id/first_drink_first"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp">
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/chocolate"/>
+               <LinearLayout
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_gravity="right"
+                   android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="20dp"
+                      android:textSize="25dp"
+                      android:textAlignment="center"
+                      android:gravity="center"
+                      android:text="Шоколадка"/>
+                  <TextView
+                      android:id="@+id/first_drink_second"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="205dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp">
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center_vertical"
+                   android:src="@drawable/snacks"/>
+               <LinearLayout
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:layout_gravity="right"
+                   android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="20dp"
+                      android:textSize="25dp"
+                      android:textAlignment="center"
+                      android:gravity="center"
+                      android:text="Сухарики"/>
+                  <TextView
+                      android:id="@+id/first_drink_third"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+
+               </LinearLayout>
+            </FrameLayout>
+         </LinearLayout>
+      </ScrollView>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp">
+
+         <TextView
+             android:id="@+id/first_queue"
+             android:layout_width="205dp"
+             android:layout_height="match_parent"/>
+         <TextView
+             android:id="@+id/first_sum"
+             android:layout_width="205dp"
+             android:layout_height="match_parent"/>
+
+      </LinearLayout>
+
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
